@@ -145,6 +145,17 @@ The app includes comprehensive mock data for testing:
 
 The app includes comprehensive demo users for testing different user experiences. You can login as any user type to explore specific features:
 
+#### ⚡ **Quick Demo Access**
+
+| 🚀 **Role** | 📧 **Email** | 🔑 **Password** | 🎯 **Best For** |
+|-------------|--------------|-----------------|------------------|
+| Trip Leader | `priya@example.com` | `leader123` | Full app management |
+| Driver | `rohan@example.com` | `driver123` | Vehicle & navigation |
+| Passenger | `aisha@example.com` | `pass123` | Games & entertainment |
+| Emergency | `rajesh@example.com` | `emergency123` | Safety monitoring |
+
+> 💡 **Quick Start**: Use Trip Leader credentials for the complete experience!
+
 #### 🚗 **Driver Users**
 - **Rohan Kumar** (`rohan@example.com`)
   - Role: Driver with vehicle management features
@@ -190,19 +201,57 @@ The app includes comprehensive demo users for testing different user experiences
   - Features: Receives emergency alerts, trip status updates
   - Permissions: Monitor trip safety, receive notifications
 
-#### 🔑 **How to Login**
+#### 🔑 **Login Credentials**
 
-1. **On the login screen**, select any user type from the dropdown:
-   - `Driver`
-   - `Passenger` 
-   - `Trip Leader`
-   - `Emergency Contact`
+You can use these specific demo user credentials to login and test different user experiences:
 
+| User Type | Email | Password | User Name | Role |
+|-----------|-------|----------|-----------|------|
+| **Trip Leader** | `priya@example.com` | `leader123` | Priya Sharma | Full trip management |
+| **Driver** | `rohan@example.com` | `driver123` | Rohan Kumar | Vehicle management |
+| **Driver** | `vikram@example.com` | `driver456` | Vikram Singh | Convoy coordination |
+| **Passenger** | `aisha@example.com` | `pass123` | Aisha Patel | Entertainment features |
+| **Passenger** | `maya@example.com` | `pass456` | Maya Reddy | Social features |
+| **Passenger** | `ankit@example.com` | `pass789` | Ankit Gupta | General passenger |
+| **Emergency Contact** | `rajesh@example.com` | `emergency123` | Rajesh Sharma | Safety monitoring |
+
+#### 📱 **How to Login**
+
+**Method 1: Direct User Credentials**
+1. **Enter specific email/password** from the table above
+2. **Select corresponding user type** from dropdown
+3. **Tap Login** to access that user's experience
+
+**Method 2: Quick User Type Selection**
+1. **Select any user type** from the dropdown:
+   - `Trip Leader` - Auto-assigns Priya Sharma
+   - `Driver` - Auto-assigns Rohan Kumar  
+   - `Passenger` - Auto-assigns Aisha Patel
+   - `Emergency Contact` - Auto-assigns Rajesh Sharma
 2. **Enter any email/password** (authentication is simulated)
+3. **Tap Login** to access features for that user type
 
-3. **The app automatically assigns** the appropriate demo user based on your selection
+#### 🎯 **Recommended Testing Flow**
 
-4. **Explore features** specific to that user type
+1. **Start as Trip Leader** (`priya@example.com` / `leader123`)
+   - Create or view existing trips
+   - Monitor convoy dashboard
+   - Access all management features
+
+2. **Switch to Driver** (`rohan@example.com` / `driver123`)
+   - Experience vehicle tracking
+   - Use quick alerts and communication
+   - See driver-specific navigation
+
+3. **Try Passenger** (`aisha@example.com` / `pass123`)
+   - Explore entertainment features
+   - Play interactive games
+   - Use group chat features
+
+4. **Test Emergency Contact** (`rajesh@example.com` / `emergency123`)
+   - Monitor trip safety
+   - Receive emergency notifications
+   - View trip status updates
 
 #### 💡 **Quick Start Tips**
 
