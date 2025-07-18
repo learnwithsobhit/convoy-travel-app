@@ -141,11 +141,75 @@ The app includes comprehensive mock data for testing:
 - `COFFEE123` - Coffee shop meetup
 - `RIVER2024` - Planning stage river trip
 
-### Demo Login
+### Demo Users & Login
 
-- **Rider**: Use rider credentials to experience convoy member features
-- **Driver**: Use driver credentials to see vehicle management options
-- **Organizer**: Use organizer credentials for full trip management
+The app includes comprehensive demo users for testing different user experiences. You can login as any user type to explore specific features:
+
+#### 🚗 **Driver Users**
+- **Rohan Kumar** (`rohan@example.com`)
+  - Role: Driver with vehicle management features
+  - Vehicle: SUV (vehicle_2)
+  - Status: Currently driving
+  - Features: Navigation, quick alerts, voice chat
+
+- **Vikram Singh** (`vikram@example.com`)
+  - Role: Driver with convoy coordination
+  - Vehicle: Sedan (vehicle_3)
+  - Status: Currently driving
+  - Features: Real-time tracking, communication
+
+#### 👥 **Passenger Users**
+- **Aisha Patel** (`aisha@example.com`)
+  - Role: Passenger focused on entertainment
+  - Vehicle: Travels with Priya (vehicle_1)
+  - Features: Games, photo sharing, group chat
+
+- **Maya Reddy** (`maya@example.com`)
+  - Role: Passenger with social features
+  - Vehicle: Travels with Rohan (vehicle_2)
+  - Features: Interactive games, messaging
+
+- **Ankit Gupta** (`ankit@example.com`)
+  - Role: General passenger
+  - Vehicle: Travels with Vikram (vehicle_3)
+
+- **Sneha Joshi** (`sneha@example.com`)
+  - Role: Social passenger
+  - Features: Group activities, communication
+
+#### 👑 **Trip Leader**
+- **Priya Sharma** (`priya@example.com`)
+  - Role: Trip organizer and leader
+  - Vehicle: Lead vehicle (vehicle_1)
+  - Features: Full trip management, convoy monitoring, emergency coordination
+  - Permissions: Create trips, manage participants, end trips
+
+#### 🚨 **Emergency Contact**
+- **Rajesh Sharma** (`rajesh@example.com`)
+  - Role: Emergency contact for safety
+  - Features: Receives emergency alerts, trip status updates
+  - Permissions: Monitor trip safety, receive notifications
+
+#### 🔑 **How to Login**
+
+1. **On the login screen**, select any user type from the dropdown:
+   - `Driver`
+   - `Passenger` 
+   - `Trip Leader`
+   - `Emergency Contact`
+
+2. **Enter any email/password** (authentication is simulated)
+
+3. **The app automatically assigns** the appropriate demo user based on your selection
+
+4. **Explore features** specific to that user type
+
+#### 💡 **Quick Start Tips**
+
+- **Try Driver mode** to see vehicle tracking and navigation features
+- **Use Passenger mode** to explore games and entertainment
+- **Select Trip Leader** for full management capabilities
+- **Test Emergency Contact** to see safety monitoring features
 
 ## Docker Support
 
